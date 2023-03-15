@@ -52,4 +52,15 @@ public class User {
     public Car getCar() {
         return car;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", car=" + car +
+                '}';
+    }
 }
